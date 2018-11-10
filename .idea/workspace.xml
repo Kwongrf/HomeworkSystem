@@ -6,37 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fca17a65-3eb9-4d99-82cf-981c5d90226f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssh2_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b632ca1-46e6-4406-9ffa-9683596859da.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9b632ca1-46e6-4406-9ffa-9683596859da.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_3_7_5_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_3_7_5_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_5_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Struts_2_2_5_14_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/SpringBeans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/bupt/hwsystem/hibernate/Student.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/bupt/hwsystem/hibernate/Teacher.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/bupt/hwsystem/spring/StudentBean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/bupt/hwsystem/spring/TeacherBean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/kwong/customer/hibernate/Customer.hbm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/com/kwong/customer/spring/CustomerBean.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/config/database/properties/database.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/config/spring/DataSource.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/config/spring/HibernateSessionFactory.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/createTable.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/spring-form.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/spring.tld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/pages/customer.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/pages/student.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ssh2_war_exploded/pages/teacher.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/hibernate/Student.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/hibernate/Student.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/hibernate/Teacher.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/hibernate/Teacher.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/spring/TeacherBean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/bupt/hwsystem/spring/TeacherBean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/HibernateSessionFactory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/config/spring/HibernateSessionFactory.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/createTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/createTable.sql" afterDir="false" />
-    </list>
+    <list default="true" id="fca17a65-3eb9-4d99-82cf-981c5d90226f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -396,7 +366,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="621" />
     <option name="width" value="1302" />
     <option name="height" value="1092" />
@@ -706,7 +676,7 @@
       <workItem from="1541766439481" duration="6358000" />
       <workItem from="1541773594629" duration="19000" />
       <workItem from="1541773646124" duration="3545000" />
-      <workItem from="1541816389978" duration="1928000" />
+      <workItem from="1541816389978" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="debug">
       <created>1541819713353</created>
@@ -719,7 +689,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61902000" />
+    <option name="totallyTimeSpent" value="62309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,11 +701,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8841355" visible="true" weight="0.23524657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88148147" visible="true" weight="0.23524657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" sideWeight="0.11586453" side_tool="true" visible="true" weight="0.23524657" />
+      <window_info id="Persistence" order="2" sideWeight="0.11851852" side_tool="true" visible="true" weight="0.23524657" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
@@ -750,11 +720,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.27906978" />
-      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49636218" visible="true" weight="0.06810631" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" weight="0.3283582" />
+      <window_info anchor="bottom" id="Spring" order="8" sideWeight="0.49636218" weight="0.36378738" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4995958" visible="true" weight="0.32724252" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.26578072" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4995958" weight="0.32724252" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3283582" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32724252" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.4987874" weight="0.08803987" />
