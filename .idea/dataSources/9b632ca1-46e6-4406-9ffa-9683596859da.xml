@@ -1170,323 +1170,333 @@
       <DataType>int(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="282" name="CREATE_TIME">
+    <column id="298" parent="282" name="GROUP_CAPACITY">
       <Position>5</Position>
+      <DataType>int(3)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="282" name="GROUP_PREFIX">
+      <Position>6</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="282" name="CREATE_TIME">
+      <Position>7</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="299" parent="282" name="PRIMARY">
+    <key id="301" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>COURSE_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="300" parent="283" name="GROUP_ID">
+    <column id="302" parent="283" name="GROUP_ID">
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="283" name="COURSE_ID">
+    <column id="303" parent="283" name="COURSE_ID">
       <Position>2</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="283" name="CAPACITY">
+    <column id="304" parent="283" name="NUM">
       <Position>3</Position>
       <DataType>int(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="283" name="NAME">
+    <column id="305" parent="283" name="NAME">
       <Position>4</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="283" name="LEADER_ID">
+    <column id="306" parent="283" name="LEADER_ID">
       <Position>5</Position>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="283" name="GROUP_SCORE">
+    <column id="307" parent="283" name="GROUP_SCORE">
       <Position>6</Position>
       <DataType>double|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="306" parent="283" name="LEADER_ID">
+    <index id="308" parent="283" name="LEADER_ID">
       <ColNames>LEADER_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="307" parent="283" name="PRIMARY">
+    <key id="309" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>GROUP_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="308" parent="283" name="group_course_ibfk_1">
+    <foreign-key id="310" parent="283" name="group_course_ibfk_1">
       <ColNames>LEADER_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <column id="309" parent="284" name="GROUP_ID">
+    <column id="311" parent="284" name="GROUP_ID">
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="284" name="STUDENT_ID">
+    <column id="312" parent="284" name="STUDENT_ID">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="284" name="GRADE">
+    <column id="313" parent="284" name="GRADE">
       <Position>3</Position>
       <DataType>int(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="312" parent="284" name="STUDENT_ID">
+    <index id="314" parent="284" name="STUDENT_ID">
       <ColNames>STUDENT_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="313" parent="284" name="PRIMARY">
+    <key id="315" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>GROUP_ID
 STUDENT_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="314" parent="284" name="group_student_ibfk_1">
+    <foreign-key id="316" parent="284" name="group_student_ibfk_1">
       <ColNames>GROUP_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>group_course</RefTableName>
       <RefColNames>group_id</RefColNames>
     </foreign-key>
-    <foreign-key id="315" parent="284" name="group_student_ibfk_2">
+    <foreign-key id="317" parent="284" name="group_student_ibfk_2">
       <ColNames>STUDENT_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <column id="316" parent="285" name="HOMEWORK_ID">
+    <column id="318" parent="285" name="HOMEWORK_ID">
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="317" parent="285" name="COURSE_ID">
+    <column id="319" parent="285" name="COURSE_ID">
       <Position>2</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="318" parent="285" name="CONTENT">
+    <column id="320" parent="285" name="CONTENT">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="319" parent="285" name="RELEASETIME">
+    <column id="321" parent="285" name="RELEASETIME">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="320" parent="285" name="DEADLINE">
+    <column id="322" parent="285" name="DEADLINE">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="321" parent="285" name="COURSE_ID">
+    <index id="323" parent="285" name="COURSE_ID">
       <ColNames>COURSE_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="322" parent="285" name="PRIMARY">
+    <key id="324" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>HOMEWORK_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="323" parent="285" name="homework_ibfk_1">
+    <foreign-key id="325" parent="285" name="homework_ibfk_1">
       <ColNames>COURSE_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>course_id</RefColNames>
     </foreign-key>
-    <column id="324" parent="286" name="GROUP_ID">
+    <column id="326" parent="286" name="GROUP_ID">
       <Position>1</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="286" name="HOMEWORK_ID">
+    <column id="327" parent="286" name="HOMEWORK_ID">
       <Position>2</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="286" name="SUBMISSION_TIME">
+    <column id="328" parent="286" name="SUBMISSION_TIME">
       <Position>3</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="286" name="SCORE">
+    <column id="329" parent="286" name="SCORE">
       <Position>4</Position>
       <DataType>int(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="328" parent="286" name="COMMENT">
+    <column id="330" parent="286" name="COMMENT">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="286" name="FILEDIR">
+    <column id="331" parent="286" name="FILEDIR">
       <Position>6</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="330" parent="286" name="HOMEWORK_ID">
+    <index id="332" parent="286" name="HOMEWORK_ID">
       <ColNames>HOMEWORK_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="331" parent="286" name="PRIMARY">
+    <key id="333" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>GROUP_ID
 HOMEWORK_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="332" parent="286" name="homework_group_ibfk_1">
+    <foreign-key id="334" parent="286" name="homework_group_ibfk_1">
       <ColNames>GROUP_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>group_course</RefTableName>
       <RefColNames>group_id</RefColNames>
     </foreign-key>
-    <foreign-key id="333" parent="286" name="homework_group_ibfk_2">
+    <foreign-key id="335" parent="286" name="homework_group_ibfk_2">
       <ColNames>HOMEWORK_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>homework</RefTableName>
       <RefColNames>homework_id</RefColNames>
     </foreign-key>
-    <column id="334" parent="287" name="STUDENT_ID">
+    <column id="336" parent="287" name="STUDENT_ID">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="287" name="STUDENT_NAME">
+    <column id="337" parent="287" name="STUDENT_NAME">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="336" parent="287" name="CLASS_ID">
+    <column id="338" parent="287" name="CLASS_ID">
       <Position>3</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="337" parent="287" name="SEX">
+    <column id="339" parent="287" name="SEX">
       <Position>4</Position>
       <DataType>varchar(2)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="338" parent="287" name="ENTRANCE_DATE">
+    <column id="340" parent="287" name="ENTRANCE_DATE">
       <Position>5</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="339" parent="287" name="PASSWORD">
+    <column id="341" parent="287" name="PASSWORD">
       <Position>6</Position>
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="340" parent="287" name="EMAIL">
+    <column id="342" parent="287" name="EMAIL">
       <Position>7</Position>
       <DataType>varchar(40)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="341" parent="287" name="PRIMARY">
+    <key id="343" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>STUDENT_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="342" parent="288" name="STUDENT_ID">
+    <column id="344" parent="288" name="STUDENT_ID">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="343" parent="288" name="COURSE_ID">
+    <column id="345" parent="288" name="COURSE_ID">
       <Position>2</Position>
       <DataType>int(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="344" parent="288" name="GRADE">
+    <column id="346" parent="288" name="GRADE">
       <Position>3</Position>
       <DataType>int(3)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="345" parent="288" name="COURSE_ID">
+    <index id="347" parent="288" name="COURSE_ID">
       <ColNames>COURSE_ID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="346" parent="288" name="PRIMARY">
+    <key id="348" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>STUDENT_ID
 COURSE_ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="347" parent="288" name="student_course_ibfk_1">
+    <foreign-key id="349" parent="288" name="student_course_ibfk_1">
       <ColNames>STUDENT_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>student</RefTableName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <foreign-key id="348" parent="288" name="student_course_ibfk_2">
+    <foreign-key id="350" parent="288" name="student_course_ibfk_2">
       <ColNames>COURSE_ID</ColNames>
       <RefSchemaName>homeworksystem</RefSchemaName>
       <RefTableName>course</RefTableName>
       <RefColNames>course_id</RefColNames>
     </foreign-key>
-    <column id="349" parent="289" name="TEACHER_ID">
+    <column id="351" parent="289" name="TEACHER_ID">
       <Position>1</Position>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="289" name="TEACHER_NAME">
+    <column id="352" parent="289" name="TEACHER_NAME">
       <Position>2</Position>
       <DataType>varchar(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="289" name="SEX">
+    <column id="353" parent="289" name="SEX">
       <Position>3</Position>
       <DataType>varchar(2)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="289" name="PROFESSION">
+    <column id="354" parent="289" name="PROFESSION">
       <Position>4</Position>
       <DataType>varchar(40)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="289" name="TELEPHONE">
+    <column id="355" parent="289" name="TELEPHONE">
       <Position>5</Position>
       <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="354" parent="289" name="EMAIL">
+    <column id="356" parent="289" name="EMAIL">
       <Position>6</Position>
       <DataType>varchar(40)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="355" parent="289" name="PASSWORD">
+    <column id="357" parent="289" name="PASSWORD">
       <Position>7</Position>
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="356" parent="289" name="PRIMARY">
+    <key id="358" parent="289" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>TEACHER_ID</ColNames>
       <Primary>1</Primary>

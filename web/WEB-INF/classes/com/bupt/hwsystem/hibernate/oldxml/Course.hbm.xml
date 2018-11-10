@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bupt.hwsystem.model.Course"
+           table="course">
+        <id name="courseId" type="java.lang.Long">
+            <column name="COURSE_ID"/>
+            <generator class="identity"/>
+        </id>
+        <property name="courseName" type="string">
+            <column name="COURSE_NAME" length="45" not-null="true"/>
+        </property>
+        <property name="teacherId" type="string">
+            <column name="TEACHER_ID" not-null="true"/>
+        </property>
+        <property name="capacity" type="java.lang.Integer">
+            <column name="CAPACITY" not-null="true"/>
+        </property>
+        <property name="createTime" type="java.util.Date">
+            <column name="CREATE_TIME" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.bupt.hwsystem.model.Teacher"
+            table="teacher">
+        <id name="teacherId" type="java.lang.Long">
+            <column name="TEACHER_ID"/>
+            <generator class="identity"/>
+        </id>
+        <property name="teacherName" type="string">
+            <column name="TEACHER_NAME" length="45" not-null="true"/>
+        </property>
+        <property name="sex" type="string">
+            <column name="SEX" not-null="true"/>
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" not-null="false"/>
+        </property>
+        <property name="profession" type="string">
+            <column name="PROFESSION" not-null="true"/>
+        </property>
+        <property name="telephone" type="string">
+            <column name="TELEPHONE" not-null="false"/>
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
