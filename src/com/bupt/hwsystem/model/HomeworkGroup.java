@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Objects;
 
 @Entity
-@Table(name = "homework_group", schema = "homeworksystem", catalog = "")
+@Table(name = "homework_group", schema = "homeworksystem")
 @IdClass(HomeworkGroupPK.class)
 public class HomeworkGroup {
 
@@ -18,13 +18,7 @@ public class HomeworkGroup {
     private String fileDir;
     private String filedir;
 
-    public void setSubmissionTime(Timestamp submissionTime) {
-        this.submissionTime = submissionTime;
-    }
 
-    public void setScore(Integer score) {
-        this.score = score;
-    }
 
     public String getFileDir() {
         return fileDir;

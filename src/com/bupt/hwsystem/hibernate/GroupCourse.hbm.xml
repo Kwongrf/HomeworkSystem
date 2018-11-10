@@ -7,7 +7,7 @@
     <class name="com.bupt.hwsystem.model.GroupCourse" table="group_course" schema="homeworksystem">
         <id name="groupId" column="GROUP_ID"/>
         <property name="courseId" column="COURSE_ID"/>
-        <property name="capacity" column="CAPACITY"/>
+        <property name="num" column="NUM"/>
         <property name="name" column="NAME"/>
         <property name="leaderId" column="LEADER_ID"/>
         <property name="groupScore" column="GROUP_SCORE"/>

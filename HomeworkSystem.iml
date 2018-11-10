@@ -40,6 +40,7 @@
           <file>file://$MODULE_DIR$/src/com/bupt/hwsystem/spring/GroupBean.xml</file>
           <file>file://$MODULE_DIR$/src/com/bupt/hwsystem/spring/HomeworkBean.xml</file>
           <file>file://$MODULE_DIR$/src/com/bupt/hwsystem/spring/AdminBean.xml</file>
+          <file>file://$MODULE_DIR$/src/com/bupt/hwsystem/spring/CourseBean.xml</file>
         </fileset>
       </configuration>
     </facet>

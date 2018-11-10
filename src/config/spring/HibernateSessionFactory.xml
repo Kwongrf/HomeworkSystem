@@ -17,19 +17,19 @@
                 <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
             </props>
         </property>
-        <property name="mappingResources">
-            <list>
-                <value>classpath:com/bupt/hwsystem/hibernate/Teacher.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/Student.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/Course.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/GroupCourse.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/Homework.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/Admin.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/HomeworkGroup.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/StudentCourse.hbm.xml</value>
-                <value>classpath:com/bupt/hwsystem/hibernate/GroupStudent.hbm.xml</value>
-            </list>
-        </property>
+        <!--<property name="mappingResources">-->
+            <!--<list>-->
+                <!--<value>com/bupt/hwsystem/hibernate/Teacher.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/Student.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/Course.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/GroupCourse.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/Homework.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/Admin.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/HomeworkGroup.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/StudentCourse.hbm.xml</value>-->
+                <!--<value>com/bupt/hwsystem/hibernate/GroupStudent.hbm.xml</value>-->
+            <!--</list>-->
+        <!--</property>-->
         <property name="annotatedClasses">
             <list>
 

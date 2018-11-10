@@ -18,7 +18,7 @@ public class StudentAction implements ModelDriven {
 
 
 
-    public void setStudentBo(StudentBoImpl studentBo) {
+    public void setStudentBo(StudentBo studentBo) {
         this.studentBo = studentBo;
     }
 

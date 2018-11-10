@@ -16,14 +16,9 @@ public class Course
     private String teacherId;
     private int capacity;
     private Date createTime;
+    private int groupCapacity;
+    private String groupPrefix;
 
-    public void setCapacity(Integer capacity) {
-        this.capacity = capacity;
-    }
-
-    public void setCreateTime(Timestamp createTime) {
-        this.createTime = createTime;
-    }
 
     @Id
     @Column(name = "COURSE_ID")
@@ -73,6 +68,26 @@ public class Course
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
+    }
+
+    @Basic
+    @Column(name = "GROUP_CAPACITY")
+    public int getGroupCapacity() {
+        return groupCapacity;
+    }
+
+    public void setGroupCapacity(int groupCapacity) {
+        this.groupCapacity = groupCapacity;
+    }
+
+    @Basic
+    @Column(name = "GROUP_PREFIX")
+    public String getGroupPrefix() {
+        return groupPrefix;
+    }
+
+    public void setGroupPrefix(String groupPrefix) {
+        this.groupPrefix = groupPrefix;
     }
 
     @Override

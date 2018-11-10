@@ -10,7 +10,7 @@ import java.util.Objects;
 @Entity
 public class Teacher implements Serializable {
 
-    private Long teacherId;
+    private String teacherId;
     private String teacherName;
     private String sex;
     private String profession;
@@ -18,9 +18,6 @@ public class Teacher implements Serializable {
     private String email;
     private String password;
 
-    public void setTeacherId(String teacherId) {
-        this.teacherId = teacherId;
-    }
 
     @Basic
     @Column(name = "PASSWORD")
@@ -34,11 +31,11 @@ public class Teacher implements Serializable {
 
     @Id
     @Column(name = "TEACHER_ID")
-    public Long getTeacherId() {
+    public String getTeacherId() {
         return teacherId;
     }
 
-    public void setTeacherId(Long teacherId) {
+    public void setTeacherId(String teacherId) {
         this.teacherId = teacherId;
     }
 
